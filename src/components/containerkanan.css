@@ -1,0 +1,26 @@
+.containerkanan-containerkanan {
+  flex: 0 0 auto;
+  width: 600px;
+  height: 737px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+@media(max-width: 1200px) {
+  .containerkanan-containerkanan {
+    height: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .containerkanan-containerkanan {
+    width: 484px;
+    height: 692px;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    align-items: center;
+    padding-bottom: 0px;
+    justify-content: flex-start;
+  }
+}

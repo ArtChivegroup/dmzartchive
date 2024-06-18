@@ -1,0 +1,28 @@
+.yt1-yt {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-self: flex-start;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.yt1-image {
+  width: 86px;
+  height: 85px;
+  padding: var(--dl-space-space-unit);
+  align-self: center;
+  object-fit: cover;
+}
+.yt1-text {
+  color: #ffffff;
+  font-size: 1.3em;
+  font-style: normal;
+  font-weight: 400;
+}
+.yt1-link1 {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+}

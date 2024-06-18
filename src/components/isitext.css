@@ -1,0 +1,59 @@
+.isitext-isitext {
+  flex: 0 0 auto;
+  width: 1202px;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-self: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.isitext-text {
+  color: var(--dl-color-theme-neutral-dark);
+  font-size: 50px;
+  align-self: flex-start;
+  text-align: left;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.isitext-text1 {
+  font-size: 25px;
+  font-family: "Noto Sans";
+}
+.isitext-link {
+  text-decoration: none;
+}
+@media(max-width: 1200px) {
+  .isitext-isitext {
+    width: 806px;
+  }
+}
+@media(max-width: 991px) {
+  .isitext-isitext {
+    width: 600px;
+    height: 100%;
+    padding-right: 0px;
+  }
+}
+@media(max-width: 767px) {
+  .isitext-isitext {
+    width: 372px;
+    height: 496px;
+    align-self: flex-start;
+  }
+}
+@media(max-width: 479px) {
+  .isitext-isitext {
+    width: 210px;
+    height: 335px;
+    padding-right: var(--dl-space-space-halfunit);
+  }
+  .isitext-text {
+    font-size: 25px;
+  }
+  .isitext-text1 {
+    font-size: 15px;
+  }
+}

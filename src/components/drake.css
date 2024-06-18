@@ -1,0 +1,19 @@
+.drake-drake {
+  width: 100%;
+  height: 377px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+@media(max-width: 991px) {
+  .drake-drake {
+    height: 416px;
+  }
+}
+@media(max-width: 767px) {
+  .drake-drake {
+    height: 537px;
+  }
+}

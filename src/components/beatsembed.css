@@ -1,0 +1,42 @@
+.beatsembed-container {
+  width: 100%;
+  height: 1156px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  margin-bottom: 147px;
+  flex-direction: column;
+}
+.beatsembed-container1 {
+  width: 1200px;
+  height: 953px;
+}
+.beatsembed-container2 {
+  display: contents;
+}
+
+@media(max-width: 1200px) {
+  .beatsembed-root-class-name {
+    background-color: #000000;
+  }
+}
+@media(max-width: 991px) {
+  .beatsembed-container1 {
+    width: 990px;
+    height: 1190px;
+  }
+}
+@media(max-width: 767px) {
+  .beatsembed-container1 {
+    width: 766px;
+    height: 1150px;
+  }
+}
+@media(max-width: 479px) {
+  .beatsembed-container1 {
+    width: 479px;
+    height: 1257px;
+    padding-bottom: 0px;
+  }
+}

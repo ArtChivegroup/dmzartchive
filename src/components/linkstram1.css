@@ -1,0 +1,17 @@
+.linkstram1-linkstram {
+  width: 547px;
+  height: 50%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+@media(max-width: 767px) {
+  .linkstram1-linkstram {
+    width: 484px;
+    height: 50%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}

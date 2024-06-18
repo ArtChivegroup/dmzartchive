@@ -1,0 +1,27 @@
+.spotify2-spotify {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.spotify2-image {
+  width: 86px;
+  height: 85px;
+  padding: var(--dl-space-space-unit);
+  align-self: flex-start;
+  object-fit: cover;
+}
+.spotify2-text {
+  color: #ffffff;
+  font-size: 1.3em;
+  font-style: normal;
+  font-weight: 400;
+}
+.spotify2-link1 {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+}

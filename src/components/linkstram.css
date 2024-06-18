@@ -1,0 +1,14 @@
+.linkstram-linkstram {
+  width: 547px;
+  height: 50%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+@media(max-width: 767px) {
+  .linkstram-linkstram {
+    width: 484px;
+    height: 182px;
+  }
+}

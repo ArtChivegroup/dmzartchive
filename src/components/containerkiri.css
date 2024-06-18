@@ -1,0 +1,25 @@
+.containerkiri-containerkiri {
+  flex: 0 0 auto;
+  width: 600px;
+  height: 737px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+@media(max-width: 1200px) {
+  .containerkiri-containerkiri {
+    height: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .containerkiri-containerkiri {
+    width: 484px;
+    height: 369px;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    padding-bottom: 4px;
+    justify-content: flex-start;
+  }
+}

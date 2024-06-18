@@ -1,0 +1,62 @@
+.kanan-kanan {
+  flex: 0 0 auto;
+  width: 592px;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.kanan-container {
+  width: 551px;
+  height: 337px;
+  align-self: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.kanan-container1 {
+  display: contents;
+}
+.kanan-text {
+  color: #f16323;
+  width: 594px;
+  font-size: 1.5em;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 300;
+  line-height: 1;
+  text-transform: capitalize;
+}
+@media(max-width: 991px) {
+  .kanan-container {
+    width: 779px;
+    height: 487px;
+    align-self: center;
+  }
+}
+@media(max-width: 767px) {
+  .kanan-container {
+    width: 484px;
+    height: 305px;
+  }
+}
+@media(max-width: 479px) {
+  .kanan-kanan {
+    width: 478px;
+    height: 298px;
+  }
+  .kanan-container {
+    width: 468px;
+    height: 248px;
+    padding: 0px;
+  }
+  .kanan-text {
+    font-size: 1.5em;
+  }
+}
