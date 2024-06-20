@@ -108,7 +108,7 @@ Navbar2.defaultProps = {
   link5: 'Link5',
   link3: 'Link3',
   link2: 'Link2',
-  logoSrc: 'public/logo-17-1500h.png',
+  logoSrc: 'https://raw.githubusercontent.com/ArtChivegroup/dmzartchive/main/public/logo-17-1500h.png',
   rootClassName: '',
   link1: 'Link1',
 }
